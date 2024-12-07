@@ -1,0 +1,1 @@
+This example demonstrates a common issue when using SWR with Next.js API routes: not properly handling non-200 status codes from the API route. The `fetcher` function in the `MyComponent` initially failed to correctly handle error responses from the API, which could lead to unexpected behavior or crashes in the application. The solution shows how to handle the error gracefully.
